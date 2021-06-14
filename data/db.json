@@ -1,0 +1,224 @@
+{
+  "login": {
+    "username": "dfgdf",
+    "password": "asdfg"
+  },
+  "companies": [
+    {
+      "id": 1,
+      "name": "Company1",
+      "address": "Dummy Address 1",
+      "contact": 9851000000,
+      "email": "email@company1.com",
+      "pan": "53245",
+      "vat": "7856"
+    },
+    {
+      "id": 2,
+      "name": "Company2",
+      "address": "Dummy Address 2",
+      "contact": 9851000001,
+      "email": "email@company2.com",
+      "pan": "532455",
+      "vat": "78561"
+    },
+    {
+      "id": 3,
+      "name": "Company3",
+      "address": "Dummy Address 3",
+      "contact": 98510000003,
+      "email": "email@company3.com",
+      "pan": "532454",
+      "vat": "785654"
+    },
+    {
+      "name": "company 4",
+      "address": "dummy address 4",
+      "contact": 85652321,
+      "email": "ad@jsd.com",
+      "pan": 85565,
+      "vat": 145895,
+      "id": 4
+    },
+    {
+      "name": "wdefrghn",
+      "address": "awdefrgh",
+      "contact": 8496155,
+      "email": "swd@sdf.vo",
+      "pan": 56562,
+      "vat": 88562,
+      "id": 5
+    },
+    {
+      "name": "companyyyyyyyy",
+      "address": "thisssssss",
+      "contact": 789456123,
+      "email": "asdf@hjkl.com",
+      "pan": 741258963,
+      "vat": 963258741,
+      "id": 6
+    },
+    {
+      "name": "myCompany`",
+      "address": "dghjkghbb",
+      "contact": 87451320,
+      "email": "shgv@gsh.com",
+      "pan": 845123,
+      "vat": 745123,
+      "id": 7
+    },
+    {
+      "name": "rdfghj",
+      "address": "sfdgnh",
+      "contact": 51230,
+      "email": "gffh@eghm.erth",
+      "pan": 230,
+      "vat": 523,
+      "id": 8
+    }
+  ],
+  "clients": [
+    {
+      "id": 1,
+      "name": "client1",
+      "company": "company1",
+      "designation": "manager",
+      "contact": 789456321,
+      "email": "adf@jfsd.com"
+    },
+    {
+      "id": 2,
+      "name": "client2",
+      "company": "company2",
+      "designation": "manager",
+      "contact": 789456321,
+      "email": "adf@jfsd.com"
+    },
+    {
+      "id": 3,
+      "name": "client3",
+      "company": "company3",
+      "designation": "manager",
+      "contact": 789456321,
+      "email": "adf@jfsd.com"
+    },
+    {
+      "id": 4,
+      "name": "client4",
+      "company": "company4",
+      "designation": "manager",
+      "contact": 789456321,
+      "email": "adf@jfsd.com"
+    },
+    {
+      "name": "new",
+      "company": "rdfghj",
+      "designation": "khai",
+      "contact": 465213,
+      "email": "ccv@fg.vg",
+      "id": 5
+    }
+  ],
+  "invoices": [
+    {
+      "id": 1,
+      "invnumber": 1,
+      "title": "invoice1",
+      "vatable": true,
+      "client": "client1",
+      "items": [
+        {
+          "name": "item1",
+          "quantity": 10,
+          "rate": 175.5
+        }
+      ],
+      "date": "2021-02-24",
+      "duedate": "2022-02-24",
+      "totalamount": 5000
+    },
+    {
+      "id": 3,
+      "invnumber": 3,
+      "title": "invoice3",
+      "vatable": false,
+      "client": "client2",
+      "items": [
+        {
+          "id": 2,
+          "name": "item1",
+          "quantity": 10,
+          "rate": 175.5
+        },
+        {
+          "id": 3,
+          "name": "item2",
+          "quantity": 15,
+          "rate": 198.5
+        }
+      ],
+      "date": "2021-02-24",
+      "duedate": "2022-02-24",
+      "totalamount": 5000
+    },
+    {
+      "invnumber": 66,
+      "title": "dsf",
+      "vatable": true,
+      "client": "client4",
+      "date": "2021-03-05T06:11:46.161Z",
+      "duedate": "2021-04-05T06:11:46.000Z",
+      "items": [
+        {
+          "id": 0,
+          "name": "swdefv",
+          "quantity": 5,
+          "rate": "6586"
+        },
+        {
+          "id": "d7FGFOcGg",
+          "name": "sdf",
+          "quantity": 152,
+          "rate": "236"
+        },
+        {
+          "id": "ryBaAmTxq",
+          "name": "asd",
+          "quantity": 96,
+          "rate": "456"
+        },
+        {
+          "id": "rjmyprj4E",
+          "name": "aSDX",
+          "quantity": 98,
+          "rate": "123"
+        }
+      ],
+      "id": 9
+    },
+    {
+      "invnumber": 65,
+      "title": "hbgv",
+      "vatable": false,
+      "client": "client1",
+      "date": "2021-03-05T08:22:14.049Z",
+      "duedate": "2021-03-25T08:22:14.000Z",
+      "items": [
+        {
+          "id": 0,
+          "name": "vc",
+          "quantity": 58,
+          "rate": "98"
+        },
+        {
+          "id": "1xo8P2UII",
+          "name": "fd",
+          "quantity": 69,
+          "rate": "69"
+        }
+      ],
+      "totalamount": "",
+      "id": 10
+    }
+  ]
+}

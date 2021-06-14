@@ -1,0 +1,49 @@
+.whole-page {
+  display: flex;
+}
+.sidebar {
+  flex: 0;
+}
+.wrapper {
+  flex: 1;
+  background-color: #f6f6f6;
+  margin: 5px;
+  padding: 5px;
+}
+.header {
+  text-align: center;
+}
+.info-wrapper {
+  display: flex;
+}
+.company-info {
+  flex: 0.3;
+  text-align: left;
+}
+.invoice-info {
+  flex: 0.7;
+  text-align: right;
+  float: "right";
+}
+.title {
+  text-align: center;
+}
+.client {
+  margin-left: 50px;
+}
+.client p {
+  margin-left: 60px;
+}
+.grand-total {
+  float: right;
+}
+.comment-box {
+  width: 500px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 5px;
+}
+.button-div {
+  float: right;
+}
